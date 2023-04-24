@@ -2,7 +2,7 @@ from collections import deque
 
 
 class HistoryHolder:
-    def __init__(self, max_word_len: int = 512) -> None:
+    def __init__(self, max_word_len: int = 1024) -> None:
         self.history = deque()
         self.history.append("[user input, ai response]")
         self.history_len = deque()
