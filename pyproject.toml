@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ai"
+version = "0.1.0"
+description = "AI part for deepsight"
+authors = ["Euijin Jeong <euijinrnd@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^0.27.4"
+selenium = "^4.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
