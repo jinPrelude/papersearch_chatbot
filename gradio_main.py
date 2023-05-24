@@ -4,10 +4,10 @@ import gradio as gr
 import openai
 from dotenv import load_dotenv
 
-from deepsight.crawler import ElicitSearchDriver
-from deepsight.models import SearchQueryModel, ScoreModel, GPT3ChatModel
-from deepsight.models.utils import HistoryHolder
-from deepsight.pipeline import Pipeline
+from papersearch_chatbot.crawler import ElicitSearchDriver
+from papersearch_chatbot.models import SearchQueryModel, ScoreModel, GPT3ChatModel
+from papersearch_chatbot.models.utils import HistoryHolder
+from papersearch_chatbot.pipeline import Pipeline
 
 
 load_dotenv()

@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "ai"
 version = "0.1.0"
-description = "AI part for deepsight"
+description = "AI that search research paper using elicit"
 authors = ["Euijin Jeong <euijinrnd@gmail.com>"]
 readme = "README.md"
 

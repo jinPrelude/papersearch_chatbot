@@ -1,8 +1,8 @@
 from typing import Dict, Tuple, List
 
-from deepsight.crawler import ElicitSearchDriver
-from deepsight.models import SearchQueryModel, ScoreModel, GPT3ChatModel
-from deepsight.models.utils import HistoryHolder
+from papersearch_chatbot.crawler import ElicitSearchDriver
+from papersearch_chatbot.models import SearchQueryModel, ScoreModel, GPT3ChatModel
+from papersearch_chatbot.models.utils import HistoryHolder
 
 
 

@@ -10,7 +10,7 @@ class GPT3ChatModel:
         self.max_tokens = max_tokens
 
     def get_prompt(self, message: str, history: str, score: int, result_dict: str) -> List[Dict[str, str]]:
-        prompt = f"You are DeepSight, an AGI research assistant. user: {message}\n"
+        prompt = f"You are an AGI research assistant. user: {message}\n"
 
         if score == 1:
             prompt += (
@@ -19,7 +19,7 @@ class GPT3ChatModel:
                 "template for paper info : [title] by [authors]([publication_year], [citation])-[summary]\n"
             )
 
-        prompt += f"chat history: [{history}]\nDeepSight : "
+        prompt += f"chat history: [{history}]\nAI : "
         messages = [{"role": "assistant", "content": prompt}]
 
         return messages
