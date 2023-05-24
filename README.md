@@ -31,3 +31,6 @@ python run_gradio.py
 ```
 By running run_gradio.py file, you can get local URL for using chatbot.
 
+
+## Architecture
+![필요그림자료 005](https://github.com/jinPrelude/papersearch_chatbot/assets/16518993/44a56489-a763-4db1-8071-bdd15d8ae81a)
