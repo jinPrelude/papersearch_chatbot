@@ -1,8 +1,7 @@
 # PaperSearch Chatbot
-![ezgif com-video-to-gif](https://github.com/jinPrelude/papersearch_chatbot/assets/16518993/b4e62c61-41a2-42a1-9c4e-77f93ab39a57)
-
 [PaperSearch Chatbot](#) is a chatbot that can help you find papers related to based on your request. It uses ChatGPT for chatbot model, and [Elicit](https://elicit.org), a search engine for scientific papers using GPT3. 
 
+![ezgif com-video-to-gif](https://github.com/jinPrelude/papersearch_chatbot/assets/16518993/b4e62c61-41a2-42a1-9c4e-77f93ab39a57)
 
 
 ## Installation
