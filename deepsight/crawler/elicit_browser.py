@@ -11,6 +11,8 @@ from copy import copy
 from typing import Dict, Any, List
 import sys
 
+from dotenv import load_dotenv
+load_dotenv()
 
 class ElicitSearchDriver:
     """A class to interact with elicit.org using Selenium."""
@@ -34,7 +36,7 @@ class ElicitSearchDriver:
 
         self._wait_and_click('//button[contains(@class,"firebaseui-idp-button")]')
 
-        self._wait_and_send_keys('//input[@type="email"]', "jin.prelude@gmail.com")
+        self._wait_and_send_keys('//input[@type="email"]', os.environ["ELICIT_EMAIL"])
 
         self._click_element('//button[@type="submit"]')
 
